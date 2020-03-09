@@ -1,0 +1,49 @@
+{
+  "connection": "default",
+  "collectionName": "casino",
+  "info": {
+    "name": "casino",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Promotions": {
+      "type": "text"
+    },
+    "About": {
+      "type": "text"
+    },
+    "Games": {
+      "type": "text"
+    },
+    "Support": {
+      "type": "text"
+    },
+    "Termslink": {
+      "type": "string"
+    },
+    "Logo": {
+      "type": "string"
+    },
+    "PaymentOptions": {
+      "enum": [
+        "Bank Transfer",
+        "Mastercard",
+        "Neteller",
+        "Paysafecard",
+        "Skrill",
+        "VISA"
+      ],
+      "type": "enumeration"
+    },
+    "offers": {
+      "collection": "offer",
+      "via": "casino"
+    }
+  }
+}

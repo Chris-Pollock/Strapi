@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/apis",
+      "handler": "Api.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/apis/count",
+      "handler": "Api.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/apis/:_id",
+      "handler": "Api.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/apis",
+      "handler": "Api.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/apis/:_id",
+      "handler": "Api.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/apis/:_id",
+      "handler": "Api.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

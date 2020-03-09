@@ -1,0 +1,20 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "website",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "categories": {
+      "collection": "category",
+      "via": "websites"
+    }
+  }
+}

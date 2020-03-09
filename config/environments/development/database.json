@@ -1,0 +1,19 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "strapi-hook-mongoose",
+      "settings": {
+        "client": "mongo",
+        "host": "ds213178.mlab.com",
+        "port": "13178",
+        "database": "mountmediatestdata",
+        "username": "testuser1",
+        "password": "testuser1"
+      },
+      "options": {
+        "authenticationDatabase": "mountmediatestdata"
+      }
+    }
+  }
+}

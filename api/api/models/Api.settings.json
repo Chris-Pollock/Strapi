@@ -1,0 +1,14 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "api",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    
+  }
+}

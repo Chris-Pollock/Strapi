@@ -1,0 +1,29 @@
+{
+  "connection": "default",
+  "collectionName": "offer",
+  "info": {
+    "name": "offer",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "OfferDescription": {
+      "type": "string"
+    },
+    "casino": {
+      "model": "casino",
+      "via": "offers"
+    },
+    "links": {
+      "collection": "link",
+      "via": "offer"
+    },
+    "categories": {
+      "collection": "category",
+      "via": "offers",
+      "dominant": true
+    }
+  }
+}

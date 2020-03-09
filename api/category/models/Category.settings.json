@@ -1,0 +1,25 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "category",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "websites": {
+      "collection": "website",
+      "via": "categories",
+      "dominant": true
+    },
+    "CategoryDescription": {
+      "type": "string"
+    },
+    "offers": {
+      "collection": "offer",
+      "via": "categories"
+    }
+  }
+}

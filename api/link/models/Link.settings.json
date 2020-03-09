@@ -1,0 +1,23 @@
+{
+  "connection": "default",
+  "collectionName": "link",
+  "info": {
+    "name": "link",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "URL": {
+      "type": "string"
+    },
+    "offer": {
+      "model": "offer",
+      "via": "links"
+    },
+    "QueryString": {
+      "type": "string"
+    }
+  }
+}
